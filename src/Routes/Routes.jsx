@@ -1,10 +1,13 @@
 import { createBrowserRouter } from "react-router";
 import Mainlayout from "../Layout/Mainlayout";
-import Home from "../Pages/Home";
+
+import Homepage from "../Pages/Homepage";
+import AboutUs from "../Pages/AboutUs";
+import Profile from "../Pages/Profile";
 
 
 
- const router =createBrowserRouter([
+  export const router =createBrowserRouter([
 
     {
         path:'/',
@@ -12,8 +15,16 @@ import Home from "../Pages/Home";
         children:[
             {
                 index:true,
-                element:<Home></Home>,
+                element:<Homepage></Homepage>,
 
+            },
+            {
+                path:'/about',
+                element:<AboutUs></AboutUs>,
+            },
+            {
+                path:'/profile',
+                element:<Profile></Profile>
             }
         ]
     },
