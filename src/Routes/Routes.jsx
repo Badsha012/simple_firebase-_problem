@@ -28,7 +28,7 @@ import Signup from "../Pages/Signup";
                 element:<Profile></Profile>
             },
             {
-                path:'/sinup',
+                path:'/signup',
                 element:<Signup></Signup>
             }
         ]

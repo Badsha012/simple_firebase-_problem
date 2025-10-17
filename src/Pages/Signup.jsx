@@ -3,15 +3,17 @@ import { Link } from "react-router";
 import { FaEye } from "react-icons/fa";
 
 import { IoEyeOff } from "react-icons/io5";
+import MyContainer from "../Component/MyContainer";
 
-import MyContainer from "../components/MyContainer";
+
 
 
 const Signup = () =>{
     const handleSignup=()=>{
+      //console.log(handleSignup);
 
     }
-}
+
 
 
   return (
@@ -55,7 +57,7 @@ const Signup = () =>{
                   Password
                 </label>
                 <input
-                  type={}
+                  type={"text"}
                   name="password"
                   placeholder="••••••••"
                   className="input input-bordered w-full bg-white/20 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-pink-400"
@@ -71,7 +73,7 @@ const Signup = () =>{
                 <p className="text-sm text-white/80">
                   Already have an account?{" "}
                   <Link
-                    to="/signin"
+                    to="/signup"
                     className="text-pink-300 hover:text-white font-medium underline"
                   >
                     Sign in
@@ -84,6 +86,6 @@ const Signup = () =>{
       </MyContainer>
     </div>
   );
-
+}
 
 export default Signup;
