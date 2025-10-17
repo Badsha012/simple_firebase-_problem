@@ -4,6 +4,7 @@ import Mainlayout from "../Layout/Mainlayout";
 import Homepage from "../Pages/Homepage";
 import AboutUs from "../Pages/AboutUs";
 import Profile from "../Pages/Profile";
+import Signup from "../Pages/Signup";
 
 
 
@@ -25,6 +26,10 @@ import Profile from "../Pages/Profile";
             {
                 path:'/profile',
                 element:<Profile></Profile>
+            },
+            {
+                path:'/sinup',
+                element:<Signup></Signup>
             }
         ]
     },
