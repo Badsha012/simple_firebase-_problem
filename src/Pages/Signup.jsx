@@ -65,7 +65,7 @@ const Signup = () =>{
              
               </div>
 
-              <button type="submit" className="my-btn">
+              <button type="submit" className="btn w-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white font-semibold border-none hover:scale-105 transition-transform duration-200">
                 Sign Up
               </button>
 
@@ -73,7 +73,7 @@ const Signup = () =>{
                 <p className="text-sm text-white/80">
                   Already have an account?{" "}
                   <Link
-                    to="/sigin"
+                    to="/signin"
                     className="text-pink-300 hover:text-white font-medium underline"
                   >
                     Sign in
